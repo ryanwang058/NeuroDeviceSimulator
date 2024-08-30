@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+
+# add build directories specific to your platform of development
+/build-NeuroThing_src-qt_5_15-Debug
+/build-NeuroThing_src-Desktop_Qt_6_6_2_GCC_64bit-Debug
+./build-NeuroThing_src-Desktop_Qt_6_6_2_GCC_64bit-Debug
+build-NeuroThing_src-Desktop_Qt_6_6_2_GCC_64bit-Debug
+NeuroThing_src/build/
+./NeuroThing_src/build/
+build-NeuroThing_src-Qt_6_6_2_for_macOS-Debug
+build-NeuroThing_src-Qt_6_6_3_for_macOS-Debug
+database

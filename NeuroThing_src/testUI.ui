@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestUI</class>
+ <widget class="QWidget" name="TestUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>431</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="selectionLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="eegLabel">
+      <property name="text">
+       <string>EEG Index</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="roundLabel">
+      <property name="text">
+       <string>Treatment / Analysis Round</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="bandLabel">
+      <property name="text">
+       <string>Band Type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="roundComboBox"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="eegComboBox"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="bandComboBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="plotFrame">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>210</y>
+     <width>430</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
